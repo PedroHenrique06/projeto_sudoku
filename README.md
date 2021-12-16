@@ -2,6 +2,8 @@
 
 This project implements a terminal version of the Sudoku game.
 
+The **full description** of the project may be found [**here**](docs/sudoku_interativo.pdf).
+
 # The game
 
 According to the [wikipedia](https://en.wikipedia.org/wiki/Sudoku):
@@ -17,16 +19,16 @@ The Sudoku rules are:
 
 # Input
 
-Puzzles are read, by default, from `data/input.txt`.
+A ascii file with puzzles, as the one available in [`data/input.txt`](data/input.txt).
 
 # Usage
 
 ```
 % ./sudoku --help
-Usage: sudoku [<options>] [<input_cfg_file>]
+Usage: sudoku [-c <num>] [-h] <input_cfg_file>
   Game options:
-    --ncheck  <num> Number of checks per game. Default = 3.
-    --help          Print this help text.
+    -c  <num> Number of checks per game. Default = 3.
+    -h        Print this help text.
 ```
 
 # Features
